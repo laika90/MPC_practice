@@ -1,14 +1,14 @@
 clear all;
 clf;
 
-z0 = 1;
-z1 = 1;
+z0 = 0;
+z1 = 0;
 x0  = [z0; z1];
 x_size = length(x0);
 x = x0;
 ut = 0;
 
-iter_num = 100;
+iter_num = 30;
 
 result = zeros(x_size, iter_num);
 time   = 1:iter_num;
